@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net6.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/3971beac-e624-4a42-8cf9-a86e4d6376dd/resourceGroups/testAzurePipelines/providers/Microsoft.Web/sites/testAzurePipelinesBendando"
+}
