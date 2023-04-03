@@ -1,4 +1,11 @@
 # Starter pipeline
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'Visual Studio Premium with MSDN(3971beac-e624-4a42-8cf9-a86e4d6376dd)'
+    appType: 'webApp'
+    appName: 'testAzurePipelinesBendando'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    deploymentMethod: 'auto'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
