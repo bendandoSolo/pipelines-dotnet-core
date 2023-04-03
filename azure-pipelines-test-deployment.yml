@@ -1,24 +1,7 @@
-# ASP.NET Core
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'Visual Studio Premium with MSDN(3971beac-e624-4a42-8cf9-a86e4d6376dd)'
-    appType: 'webApp'
+    appType: 'webAppLinux'
     appName: 'testAzurePipelinesBendando'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    deploymentMethod: 'auto'
-# Build and test ASP.NET Core projects targeting .NET Core.
-# Add steps that run tests, create a NuGet package, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
-
-trigger:
-- master
-
-pool:
-  vmImage: ubuntu-latest
-
-variables:
-  buildConfiguration: 'Release'
-
-steps:
-- script: dotnet build --configuration $(buildConfiguration)
-  displayName: 'dotnet build $(buildConfiguration)'
+    runtimeStack: 'DOTNETCORE|6.0'
