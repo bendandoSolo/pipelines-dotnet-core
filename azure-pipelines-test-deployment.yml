@@ -1,0 +1,13 @@
+variables:
+  buildConfiguration: 'Release'
+  
+steps:
+- script: dotnet build --configuration $(buildConfiguration)
+  displayName: 'dotnet build $(buildConfiguration)'
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'Visual Studio Premium with MSDN(3971beac-e624-4a42-8cf9-a86e4d6376dd)'
+    appType: 'webAppLinux'
+    appName: 'testAzurePipelinesBendando'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    runtimeStack: 'DOTNETCORE|6.0'
