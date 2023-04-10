@@ -21,4 +21,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\pipelines-dotnet-core\pipelines-dotnet-core.csproj" />
+  </ItemGroup>
+
 </Project>
