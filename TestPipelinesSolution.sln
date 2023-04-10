@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pipelines-dotnet-core", "pipelines-dotnet-core\pipelines-dotnet-core.csproj", "{91AC52D7-D9F5-4265-8F38-5743CF7DB317}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiplelinesTest", "PiplelinesTest\PiplelinesTest.csproj", "{0323EE82-340D-484E-A8F0-E33BF66ED1B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91AC52D7-D9F5-4265-8F38-5743CF7DB317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91AC52D7-D9F5-4265-8F38-5743CF7DB317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91AC52D7-D9F5-4265-8F38-5743CF7DB317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91AC52D7-D9F5-4265-8F38-5743CF7DB317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0323EE82-340D-484E-A8F0-E33BF66ED1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0323EE82-340D-484E-A8F0-E33BF66ED1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0323EE82-340D-484E-A8F0-E33BF66ED1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0323EE82-340D-484E-A8F0-E33BF66ED1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADDF2130-35B1-470F-A8B5-C3F035F46E12}
+	EndGlobalSection
+EndGlobal
