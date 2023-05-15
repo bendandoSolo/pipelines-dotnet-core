@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\PipelinesTest\\PipelinesTest.csproj": {}
+    "c:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\PipelinesTest\\PipelinesTest.csproj": {}
   },
   "projects": {
-    "C:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\pipelines-dotnet-core\\pipelines-dotnet-core.csproj": {
+    "c:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\pipelines-dotnet-core\\pipelines-dotnet-core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\pipelines-dotnet-core\\pipelines-dotnet-core.csproj",
+        "projectUniqueName": "c:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\pipelines-dotnet-core\\pipelines-dotnet-core.csproj",
         "projectName": "pipelines-dotnet-core",
-        "projectPath": "C:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\pipelines-dotnet-core\\pipelines-dotnet-core.csproj",
+        "projectPath": "c:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\pipelines-dotnet-core\\pipelines-dotnet-core.csproj",
         "packagesPath": "C:\\Users\\benda\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\pipelines-dotnet-core\\obj\\",
+        "outputPath": "c:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\pipelines-dotnet-core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\benda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\PipelinesTest\\PipelinesTest.csproj": {
+    "c:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\PipelinesTest\\PipelinesTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\PipelinesTest\\PipelinesTest.csproj",
+        "projectUniqueName": "c:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\PipelinesTest\\PipelinesTest.csproj",
         "projectName": "PipelinesTest",
-        "projectPath": "C:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\PipelinesTest\\PipelinesTest.csproj",
+        "projectPath": "c:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\PipelinesTest\\PipelinesTest.csproj",
         "packagesPath": "C:\\Users\\benda\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\PipelinesTest\\obj\\",
+        "outputPath": "c:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\PipelinesTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\benda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,8 +86,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\pipelines-dotnet-core\\pipelines-dotnet-core.csproj": {
-                "projectPath": "C:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\pipelines-dotnet-core\\pipelines-dotnet-core.csproj"
+              "c:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\pipelines-dotnet-core\\pipelines-dotnet-core.csproj": {
+                "projectPath": "c:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\pipelines-dotnet-core\\pipelines-dotnet-core.csproj"
               }
             }
           }

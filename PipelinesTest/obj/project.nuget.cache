@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7cChbeNo6zohIuelgCbxNpF0iBY17tU9vP6HkEub7qOma84NYh+qInEJ+NGlaQzQ7Mx3qIibW1mSSdUABlCHJA==",
+  "dgSpecHash": "O5Pa1R4LtsdbtHjD5wN6d4z1MDKLa8ZYBtAmbRPZYTTIIZFs9L4h/jyridX/yeBQL9az5+re/jFzQ21QdQuV7w==",
   "success": true,
-  "projectFilePath": "C:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\PipelinesTest\\PipelinesTest.csproj",
+  "projectFilePath": "c:\\Development\\Tests\\Azure Pipelines\\dotnet\\pipelines-dotnet-core\\PipelinesTest\\PipelinesTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\benda\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\benda\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
