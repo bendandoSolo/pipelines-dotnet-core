@@ -28,7 +28,12 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: VSTest@2
+- script: dotnet test --configuration $(buildConfiguration) --logger trx
+  displayName: 'Run xUnit tests'
+  
+- task: PublishTestResults@2
   inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    testRunner: VSTest
+    testResultsFiles: '**/*.trx'
+  condition: always()
+  displayName: 'Publish test results'
